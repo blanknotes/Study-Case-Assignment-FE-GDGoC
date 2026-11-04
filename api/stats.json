@@ -1,0 +1,19 @@
+{
+	"success": true,
+	"data": {
+		"community_members": 500,
+		"workshops_held": 20,
+		"projects_shipped": 10,
+		"active_tracks": 3,
+		"university": "Universitas Gadjah Mada",
+		"city": "Yogyakarta",
+		"country": "Indonesia",
+		"founded_year": 2023,
+		"social": {
+			"instagram": "@gdgoc.ugm",
+			"linkedin": "gdgoc-ugm",
+			"github": "gdgoc-ugm"
+		},
+		"tagline": "Learn together. Build together."
+	}
+}

@@ -1,0 +1,27 @@
+{
+	"success": true,
+	"count": 3,
+	"data": [
+		{
+			"id": "learner",
+			"title": "Come as a learner",
+			"description": "Explore a topic, join a discussion, and ask the question that's been on your mind.",
+			"icon": "🎓",
+			"cta": "find-a-track"
+		},
+		{
+			"id": "collaborator",
+			"title": "Grow as a collaborator",
+			"description": "Work with people whose skills complement yours. Discover what you can build together.",
+			"icon": "🤜",
+			"cta": "join-a-project"
+		},
+		{
+			"id": "contributor",
+			"title": "Give back as a contributor",
+			"description": "Share knowledge, support a learning session, or bring an idea for the community.",
+			"icon": "🌱",
+			"cta": "talk-about-getting-involved"
+		}
+	]
+}

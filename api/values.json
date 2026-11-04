@@ -1,0 +1,34 @@
+{
+	"success": true,
+	"count": 4,
+	"data": [
+		{
+			"id": "stay-curious",
+			"title": "Stay curious",
+			"description": "Ask the extra question. Be willing to learn something outside your comfort zone.",
+			"icon": "🔭",
+			"color": "#4285F4"
+		},
+		{
+			"id": "make-room",
+			"title": "Make room",
+			"description": "Welcome different perspectives, respect each other, and help people find their voice.",
+			"icon": "🤝",
+			"color": "#EA4335"
+		},
+		{
+			"id": "learn-by-building",
+			"title": "Learn by building",
+			"description": "Try a small experiment. Share the rough version. Let feedback guide what comes next.",
+			"icon": "🔧",
+			"color": "#FBBC05"
+		},
+		{
+			"id": "give-something-back",
+			"title": "Give something back",
+			"description": "Share a resource, explain what clicked, or help someone take their next step.",
+			"icon": "💚",
+			"color": "#34A853"
+		}
+	]
+}

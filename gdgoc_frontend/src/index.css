@@ -1,5 +1,18 @@
 @import "tailwindcss";
 
+@theme {
+  --color-primary: #4285F4;
+  --color-backgroundPrimary: #FFF;
+  --color-backgroundSecondary: #F1F3F4;
+  --color-textPrimary: black;
+  --color-textSecondary: #1967D2;
+  --color-paragraph: #5F6368;
+  --color-boxes: #4284F4;
+  --color-insideBoxes: #FFFFFF;
+  
+  --font-sans: "Google Sans" , sans-serif
+}
+
 :root {
   --text: #6b6375;
   --text-h: #08060d;

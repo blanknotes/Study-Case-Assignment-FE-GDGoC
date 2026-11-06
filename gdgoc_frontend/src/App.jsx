@@ -3,9 +3,24 @@ import heroImg from './assets/hero.png'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
+import { Routes, Route } from "react-router-dom";
+import ComingSoon from '/pages/ComingSoon'
+import LandingPage from '/pages/LandingPage'
+import Overview from '/pages/Overview'
 
 export default function App() {
-  return <h1 className="text-3xl font-bold text-blue-600">Halo GDGoC</h1>;
+  return (
+    <div>
+        <h1>Halo GDGoC!</h1>
+        <div>
+          <Routes>
+            <Route path="/Home" element={<LandingPage />} />
+            <Route path="/Overview" element={<Overview />} />
+            <Route path="/*" element={<ComingSoon />} />
+          </Routes>
+        </div>
+    </div>
+  );
 }
 /*function App() {
   const [count, setCount] = useState(0)

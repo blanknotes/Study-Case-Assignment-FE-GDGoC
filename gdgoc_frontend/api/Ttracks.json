@@ -1,0 +1,57 @@
+{
+	"success": true,
+	"count": 3,
+	"data": [
+		{
+			"id": "research-discovery",
+			"name": "Research & Discovery",
+			"tagline": "Explore. Analyse. Uncover.",
+			"description": "Dive into research, analysis and data-driven problem solving. Start with the interest. Grow through the process and the people around you.",
+			"icon": "🔍",
+			"color": "#4285F4",
+			"skills": [
+				"Research methodology",
+				"Data analysis",
+				"User research",
+				"Problem framing"
+			],
+			"what_you_do": "Turn curiosity into findings for teams that build with them.",
+			"explore_link": "/overview?track=research-discovery",
+			"open": true
+		},
+		{
+			"id": "design-creativity",
+			"name": "Design & Creativity",
+			"tagline": "Imagine. Create. Refine.",
+			"description": "Make things that look good and feel right. Collaborate with curious people, respect each other, and help ideas become real experiences.",
+			"icon": "🎨",
+			"color": "#FBBC05",
+			"skills": [
+				"UI/UX Design",
+				"Visual design",
+				"Prototyping",
+				"Figma"
+			],
+			"what_you_do": "With accessibility, function. The design shapes what comes next.",
+			"explore_link": "/overview?track=design-creativity",
+			"open": true
+		},
+		{
+			"id": "development",
+			"name": "Development",
+			"tagline": "Build. Ship. Iterate.",
+			"description": "Write code, build tools and create solutions with a real-world impact. Take something small and make it something with a bigger canvas.",
+			"icon": "💻",
+			"color": "#34A853",
+			"skills": [
+				"Web development",
+				"Mobile development",
+				"Backend systems",
+				"Cloud & APIs"
+			],
+			"what_you_do": "A motion demo with a real codebase.",
+			"explore_link": "/overview?track=development",
+			"open": true
+		}
+	]
+}

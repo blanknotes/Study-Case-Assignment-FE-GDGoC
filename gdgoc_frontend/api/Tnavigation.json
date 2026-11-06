@@ -1,0 +1,22 @@
+{
+	"success": true,
+	"count": 4,
+	"data": [
+		{
+			"label": "Home",
+			"href": "/"
+		},
+		{
+			"label": "About",
+			"href": "/about"
+		},
+		{
+			"label": "Overview",
+			"href": "/overview"
+		},
+		{
+			"label": "Contact",
+			"href": "/contact"
+		}
+	]
+}

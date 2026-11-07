@@ -1,0 +1,19 @@
+export function ArrowIcon({ color = "white"}) {
+  return (
+    <svg
+      width="20"
+      height="20"
+      viewBox="0 0 20 20"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M3.33301 10H16.5655M16.5655 10C16.5655 10.32 16.443 10.64 16.1997 10.8833L11.458 15.625M16.5655 10C16.5655 9.68 16.443 9.36 16.1997 9.11667L11.458 4.375"
+        stroke={color}
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+}

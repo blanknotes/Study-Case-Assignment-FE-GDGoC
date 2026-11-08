@@ -7,7 +7,7 @@ A two-page React web app built from the official Figma design and powered by the
 - **Live site:** https://study-case-assignment-fe-gd-go-c.vercel.app/
 - **Video walkthrough:** https://drive.google.com/drive/folders/1ZoC0Xj1EpTzm0h7rE244KENIuQ--cdMn
 - **Design:** https://www.figma.com/design/yx06YRA90jBEX0Mmu64RBx/GDGoC-%E2%80%93-Open-Recruitment?t=GfHHA5dSz65btJjj-0 
-          : This project implements the **Home** and **Overview** pages.
+          : This project implements the **Landing Page** and **Overview** pages.
 
 ## Table of Contents
 

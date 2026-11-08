@@ -1,7 +1,7 @@
 export default function() {
     return (
         <div className="flex items-center gap-16 self-stretch bg-[#EAF5ED] px-24 py-16">
-            <img src="/public/community_spark.svg" alt="" />
+            <img src="/community_spark.svg" alt="" />
 
             {/*Belonging copy */}
             <div>

@@ -1,14 +1,19 @@
-import useFetch from "../hooks/useFetch";
-import { getTracks } from "../../api/api";
+import useFetch from "../../../hooks/useFetch";
+import { getTracks } from "../../../../api/api";
 
-import SectionIntro from "./TrackIntro";
+import { Spinner } from "../../StatusViews";
+import { ErrorMessage } from "../../StatusViews";
+import { EmptyState } from "../../StatusViews";
+
+import SectionIntro from "../../SectionIntro";
 import TrackCard from "./TrackCard";
 
-export default function TrackSection() {
+export default function TrackSection({id}) {
     const {
         data: tracks,
         loading,
-        error
+        error,
+        retry
     } = useFetch(getTracks);
 
     if (loading) {
@@ -19,7 +24,7 @@ export default function TrackSection() {
         return (
             <ErrorMessage
              message={error}
-             onRetry={load}
+             onRetry={retry}
             />
         );
     }
@@ -29,13 +34,14 @@ export default function TrackSection() {
     }
     
     return (
-        <section className="flex flex-col items-start gap-9 self-stretch px-24 pt-4 pb-22">
+        <section id={id}
+        className="flex flex-col items-start gap-9 self-stretch px-24 pt-4 pb-22">
             <SectionIntro
                 label="FIND YOUR STARTING POINT"
                 title="Many interests. One shared journey."
-                text="Follow what excites you. Explore a track, then connect the dots with others."
+                text1="Follow what excites you. Explore a track, then connect the dots with others."
                 linkLabel="See the overview"
-                linkTo="/pages/Overview"
+                linkTo="/Overview"
             />
             <div className="flex items-start gap-6 self-stretch">
                 {tracks.map((track) => (
@@ -45,6 +51,7 @@ export default function TrackSection() {
                     />
                 ))}
             </div>
+
         </section>
     );
 }

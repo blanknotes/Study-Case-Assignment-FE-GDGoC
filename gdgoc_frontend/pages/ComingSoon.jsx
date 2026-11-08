@@ -6,7 +6,7 @@ export default function ComingSoon() {
             <h1>Coming Soon!</h1>
 
             <p className="text-lg">Halaman ini belum tersedia.</p>
-            <Link to="/Home" className="mt-4 inline-block underline">
+            <Link to="/" className="mt-4 inline-block underline">
                 Kembali ke Home
             </Link>
         </div>

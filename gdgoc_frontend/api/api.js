@@ -16,4 +16,4 @@ export const getTracks = () => get("/tracks");
 export const getFAQs = () => get("/faqs");
 export const getFormats = () => get("/formats");
 export const getJourney = () => get("/journey");
-export const getNavigation = () =>("/navigation");
+export const getNavigation = () => get("/navigation");

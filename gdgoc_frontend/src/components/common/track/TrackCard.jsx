@@ -1,6 +1,6 @@
 
 import { Link } from "react-router-dom";
-import { ArrowIcon } from "./icons/arrowIcon";
+import { ArrowIcon } from "../../icons/arrowIcon";
 
 const trackIllustration = {
   "research-discovery": "/hustler.svg",
